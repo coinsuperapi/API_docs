@@ -3,21 +3,16 @@
 简介
 
 ```
-Exchange API 是交易所面向外部开发者提供的开发者接口。
+Exchange API 是交易所面向外部开发者提供的开发接口。
 ```
 
 ------
 
 更新历史
 
-| 版本        | 时间       | 说明           | 作者      |
-| --------- | -------- | ------------ | ------- |
-| v1.0.0    | 20170920 | 创建文档, 定义接口   | cuiyong |
-| v2.0.0    | 20180301 | 创建文档, 定义接口   | cuiyong |
-| v2.0.1    | 20180525 | 整理文档         | liyong  |
-| v2.1.2(β) | 20180614 | 增加接口：挂单单号列表  | liyong  |
-| v1.0.0(R) | 20180626 | 接口链接规范化      | liyong  |
-| v1.0.1(R) | 20180626 | 增加接口：可用交易对列表 | liyong  |
+| 版本        | 时间       | 说明           | 作者     |
+| --------- | -------- | ------------ | ------ |
+| v1.0.1(R) | 20180626 | 增加接口：可用交易对列表 | liyong |
 
 ------
 
@@ -37,7 +32,7 @@ Exchange API 是交易所面向外部开发者提供的开发者接口。
 
 请求数据JSON格式定义
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -53,7 +48,7 @@ Exchange API 是交易所面向外部开发者提供的开发者接口。
 
 响应数据JSON格式定义
 
-```json
+```
 {
         "code":"1000",    // 状态码
         "msg":"success",    // 返回信息
@@ -101,7 +96,7 @@ b. 对string进行md5运算，最终得到32位小写的sign值XXXXXXXXXX...;
 
 #####  签名生成方法示例 
 
-```json
+```
 假设有一个调用请求，
 
 业务参数如下：
@@ -250,7 +245,7 @@ POST
 
 请求示例：  
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -265,7 +260,7 @@ POST
 
   返回示例: 
 
-```json
+```
 {
     "code":"1000",
     "msg":"success",
@@ -341,7 +336,7 @@ POST
 
  请求示例： 
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -349,7 +344,7 @@ POST
         "sign":"sdfsdfa1231231sdfsdfsd"        // MD5加密签名
     },
     "data":{
-        "orderType"："LMT",
+        "orderType":"LMT",
         "symbol":"ETC/BTC",
         "priceLimit":12345.67, 
         "amount":0,
@@ -360,7 +355,7 @@ POST
 
  返回示例: 
 
-```json
+```
 {
     "code":"1000",
     "msg":"success",
@@ -418,7 +413,7 @@ POST
 
  请求示例： 
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -426,7 +421,7 @@ POST
         "sign":"sdfsdfa1231231sdfsdfsd"        // MD5加密签名
     },
     "data":{
-        "orderType"："LMT",
+        "orderType":"LMT",
         "symbol":"ETC/BTC",
         "priceLimit":12345.67, 
         "amount":0,
@@ -437,7 +432,7 @@ POST
 
  返回示例: 
 
-```json
+```
 {
     "code":"1000",
     "msg":"success",
@@ -486,7 +481,7 @@ POST
 
  请求示例： 
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -494,14 +489,14 @@ POST
         "sign":"sdfsdfa1231231sdfsdfsd"        // MD5加密签名
     },
     "data":{
-        "orderNo"：12341235123412           //  委托单号
+        "orderNo":12341235123412           //  委托单号
     }
 }
 ```
 
  返回示例: 
 
-```json
+```
 {
     "code":"1000",
     "msg":"success",
@@ -562,7 +557,7 @@ POST
 
  请求示例： 
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -577,7 +572,7 @@ POST
 
  返回示例: 
 
-```json
+```
 {
     "code":"1000",
     "msg":"success",
@@ -660,7 +655,7 @@ POST
 
  请求示例： 
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -676,7 +671,7 @@ POST
 
  返回示例: 
 
-```json
+```
 {
     "code":1000,
     "msg":"success",
@@ -750,7 +745,7 @@ POST
 
  请求示例： 
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -766,7 +761,7 @@ POST
 
  返回示例: 
 
-```json
+```
 {
     "code":"1000",
     "msg":"success",
@@ -823,7 +818,7 @@ POST
 
  请求示例： 
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -838,7 +833,7 @@ POST
 
  返回示例: 
 
-```json
+```
 {
     "code":"1000",
     "msg":"success",
@@ -904,7 +899,7 @@ POST
 
  请求示例： 
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -920,7 +915,7 @@ POST
 
  返回示例: 
 
-```json
+```
 {
     "code":"1000",
     "msg":"success",
@@ -975,7 +970,7 @@ POST
 
  请求示例： 
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -991,7 +986,7 @@ POST
 
  返回示例: 
 
-```json
+```
 {
     "code":"1000",
     "msg":"success",
@@ -1051,7 +1046,7 @@ POST
 
  请求示例： 
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -1066,7 +1061,7 @@ POST
 
  返回示例: 
 
-```json
+```
 {
     "code":"1000",
     "msg":"success",
@@ -1124,7 +1119,7 @@ POST
 
  请求示例： 
 
-```json
+```
 {
     "common":{
         "accesskey" : "1900000109",            // 通行证
@@ -1139,7 +1134,7 @@ POST
 
  返回示例: 
 
-```json
+```
 {
     "code":"1000",
     "msg":"success",
