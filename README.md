@@ -20,6 +20,8 @@ Exchange API 是交易所面向外部开发者提供的开发接口。
 
 ## [一、全局规则](https://github.com/coinsuperapi/API_docs/wiki#%E4%B8%80%E5%85%A8%E5%B1%80%E8%A7%84%E5%88%99)
 
+#### [接口访问前缀](https://github.com/coinsuperapi/API_docs/wiki#%E6%8E%A5%E5%8F%A3%E8%AE%BF%E9%97%AE%E5%89%8D%E7%BC%80)
+
 #### [接口规则](https://github.com/coinsuperapi/API_docs/wiki#%E6%8E%A5%E5%8F%A3%E8%A7%84%E5%88%99)
 
 ##### [全局数据格式定义](https://github.com/coinsuperapi/API_docs/wiki#%E5%85%A8%E5%B1%80%E6%95%B0%E6%8D%AE%E6%A0%BC%E5%BC%8F%E5%AE%9A%E4%B9%89)
