@@ -77,7 +77,9 @@ Exchange API 是交易所面向外部开发者提供的开发接口。
 ## 联系我们
 
 ```
-如需帮助请加入API问题交流QQ群：472488338  加入申请备注：API+coinsuper账号
+如需帮助请加入以下API问题交流群（加入申请备注：API+coinsuper账号）：
+1.QQ群：472488338 
+2.Telegram电报群：https://t.me/joinchat/HEgiSxBKVx6nwQ33otJ3Zg
 ```
 
 
