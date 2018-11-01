@@ -52,11 +52,17 @@ Exchange API 是交易所面向外部开发者提供的开发接口。
 
 ##### [2.3 取消委托](https://github.com/coinsuperapi/API_docs/wiki#23-%E5%8F%96%E6%B6%88%E5%A7%94%E6%89%98)
 
-##### [2.4 查询委托单状态(根据委托单号)](https://github.com/coinsuperapi/API_docs/wiki#24-%E6%9F%A5%E8%AF%A2%E5%A7%94%E6%89%98%E5%8D%95%E7%8A%B6%E6%80%81%E6%A0%B9%E6%8D%AE%E5%A7%94%E6%89%98%E5%8D%95%E5%8F%B7)
+##### [2.4 批量取消委托](https://github.com/coinsuperapi/API_docs/wiki#24-%E6%89%B9%E9%87%8F%E5%8F%96%E6%B6%88%E5%A7%94%E6%89%98)
 
-##### [2.5 查询订单交易详情(根据委托单号)](https://github.com/coinsuperapi/API_docs/wiki#25-%E6%9F%A5%E8%AF%A2%E8%AE%A2%E5%8D%95%E4%BA%A4%E6%98%93%E8%AF%A6%E6%83%85%E6%A0%B9%E6%8D%AE%E5%A7%94%E6%89%98%E5%8D%95%E5%8F%B7)
+##### [2.5 查询委托单状态(根据委托单号)](https://github.com/coinsuperapi/API_docs/wiki#25-%E6%9F%A5%E8%AF%A2%E5%A7%94%E6%89%98%E5%8D%95%E7%8A%B6%E6%80%81%E6%A0%B9%E6%8D%AE%E5%A7%94%E6%89%98%E5%8D%95%E5%8F%B7)
 
-##### [2.6 挂单单号列表(个人未完全成交委托单列表)](https://github.com/coinsuperapi/API_docs/wiki#26-%E6%8C%82%E5%8D%95%E5%8D%95%E5%8F%B7%E5%88%97%E8%A1%A8%E4%B8%AA%E4%BA%BA%E6%9C%AA%E5%AE%8C%E5%85%A8%E6%88%90%E4%BA%A4%E5%A7%94%E6%89%98%E5%8D%95%E5%88%)
+##### [2.6 查询订单交易详情(根据委托单号)](https://github.com/coinsuperapi/API_docs/wiki#26-%E6%9F%A5%E8%AF%A2%E8%AE%A2%E5%8D%95%E4%BA%A4%E6%98%93%E8%AF%A6%E6%83%85%E6%A0%B9%E6%8D%AE%E5%A7%94%E6%89%98%E5%8D%95%E5%8F%B7)
+
+##### [2.7 挂单单号列表(个人未完全成交委托单列表)](https://github.com/coinsuperapi/API_docs/wiki#27-%E6%8C%82%E5%8D%95%E5%8D%95%E5%8F%B7%E5%88%97%E8%A1%A8%E4%B8%AA%E4%BA%BA%E6%9C%AA%E5%AE%8C%E5%85%A8%E6%88%90%E4%BA%A4%E5%A7%94%E6%89%98%E5%8D%95%E5%88%97%E8%A1%A8)
+
+##### [2.8 查询个人历史委托单列表](https://github.com/coinsuperapi/API_docs/wiki#28-%E6%9F%A5%E8%AF%A2%E4%B8%AA%E4%BA%BA%E5%8E%86%E5%8F%B2%E5%A7%94%E6%89%98%E5%8D%95%E5%88%97%E8%A1%A8)
+
+##### [2.9 查询个人历史成交列表](https://github.com/coinsuperapi/API_docs/wiki#29-%E6%9F%A5%E8%AF%A2%E4%B8%AA%E4%BA%BA%E5%8E%86%E5%8F%B2%E6%88%90%E4%BA%A4%E5%88%97%E8%A1%A8)
 
 #### [3.行情](https://github.com/coinsuperapi/API_docs/wiki#3%E8%A1%8C%E6%83%85)
 
